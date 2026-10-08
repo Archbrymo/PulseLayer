@@ -1,0 +1,9 @@
+node_modules/
+.env
+work/
+data/*.jsonl
+data/b402-replay.json
+data/b402-replay.json.tmp
+npm-debug.log*
+.DS_Store
+data/payment-calls.jsonl
