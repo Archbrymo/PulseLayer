@@ -8,15 +8,17 @@
     "start": "node --env-file-if-exists=.env src/server.js",
     "dev": "node --env-file-if-exists=.env --watch src/server.js",
     "test": "node --test",
-    "demo": "node --env-file-if-exists=.env src/server.js"
+    "demo": "node --env-file-if-exists=.env src/server.js",
+    "buyer:mcp": "node --env-file-if-exists=.env examples/mcp-buyer.js"
   },
   "engines": {
     "node": ">=20.6"
   },
   "dependencies": {
     "@bnb-chain/b402": "^0.2.1",
-    "@x402/core": "^2.28.0",
-    "@x402/express": "^2.28.0",
-    "express": "^5.2.1"
+    "@x402/core": "2.19.0",
+    "@x402/express": "2.19.0",
+    "express": "^5.2.1",
+    "viem": "^2.57.4"
   }
 }
